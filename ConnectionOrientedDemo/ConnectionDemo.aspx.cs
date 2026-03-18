@@ -8,9 +8,10 @@ using System;
 using Oracle.ManagedDataAccess.Client;
 namespace ConnectionOrientedDemo
 
-    /*
-     * tnsping ORCL
-    */
+/*
+ * tnsping ORCL : Check the Service name
+ * Installation required: Oracle.ManagedDataAccess
+*/
 {
     public partial class ConnectionDemo : System.Web.UI.Page
     {
